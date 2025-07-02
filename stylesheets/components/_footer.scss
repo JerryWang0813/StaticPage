@@ -1,0 +1,143 @@
+footer{
+    padding: 20px 0 40px 0;
+}
+
+.footer_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 20px;
+    
+    .footer_content{
+        p{
+            font-size: 1rem;
+            color: #fff;
+        }
+    }
+
+    .footer_logo_img{
+        width: 50px;
+        height: 36px;
+    }
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+
+    .footer_info_column{
+        width: 100%;        
+    }
+
+    .footer_content{
+        position: relative;
+        p{
+            font-size: 0.75rem;
+            color: #fff !important;            
+            -webkit-text-fill-color: #fff !important;
+            text-decoration: none !important;
+            // span{
+            //     font-size: 0.75rem;
+            //     color: #fff !important;            
+            //     -webkit-text-fill-color: #fff !important;
+            //     text-decoration: none !important;
+            // }
+        }
+    }
+}
+
+.footer_phone, .footer_tax, .footer_address, .footer_email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;    
+    padding-left: 0.625rem;
+    margin-bottom: 0.625rem;
+    
+    img{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/*----- tablet 768px -----*/
+@media screen and (min-width: 768px) {
+    
+    footer{
+        padding: 30px 0 70px 0;
+    }
+    
+    .footer_logo{
+        gap: 0.625rem;
+        .footer_content{        
+            p{
+                font-size: 1.25rem;
+            }
+        }
+
+        .footer_logo_img{
+            width: 65px;
+            height: 48px;
+        }
+    }
+
+    .footer_content{        
+        p{
+            font-size: 1.25rem;
+        }
+    }
+
+    .footer_phone, .footer_tax, .footer_address, .footer_email{
+        img{
+            width: 28px;
+            height: 28px;
+        }
+    }
+}
+
+/*----- desktop 1366px -----*/
+@media screen and (min-width: 1366px) {
+
+    footer{
+        padding: 80px 0 150px 0;
+    }
+
+    .footer_logo{        
+        .footer_content{        
+            p{
+                font-size: 1.875rem;
+            }
+        }
+
+        .footer_logo_img{
+            width: 98px;
+            height: 72px;
+        }
+    }
+
+    .footer_info{
+        display: flex;        
+        flex-direction: row;
+
+        .footer_info_column{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .footer_content{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .footer_phone, .footer_tax, .footer_address, .footer_email{
+        padding: 0;
+        margin: 0;
+    }
+}
