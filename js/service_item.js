@@ -84,13 +84,13 @@ const setSlideContentTextLength = function (windowWidth){
 
     var originalText = p.dataset.originalText;//從儲存的原始資料進行處理
     var actualText = originalText.replace(/\s+/g, ''); // 不包含空白字數
-    var subStringLen = 38; // 預設擷取長度
+    var subStringLen = 26; // 預設擷取長度
     var displayText = originalText; // 預設顯示原始文字
 
 
     // 判斷畫面尺寸（先判斷大尺寸）
     if(windowWidth >= 1366){
-      subStringLen = 58;
+      subStringLen = 50;
       //console.log('windowWidth:', windowWidth, '第' + (index + 1) + '個 p 標籤實際字數:', actualText.length);
       
       // 判斷輪播字數長度
@@ -110,13 +110,13 @@ const setSlideContentTextLength = function (windowWidth){
       }
       
     } 
-    // else {// 手機版本或更小尺寸的處理
-    //   
-    //   subStringLen = 26;
-    //   if(actualText.length > 26){
-    //     displayText = getSubstringWithActualLength(originalText, subStringLen) + '...';
-    //   }
-    // }
+    else {// 手機版本或更小尺寸的處理
+      
+      subStringLen = 26;
+      if(actualText.length > 26){
+        displayText = getSubstringWithActualLength(originalText, subStringLen) + '...';
+      }
+    }
 
     // 更新顯示的文字內容
     p.textContent = displayText;
