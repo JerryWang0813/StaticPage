@@ -136,11 +136,26 @@
 
     <div>
         <section class="index_bg">
-          <picture>
+          <!-- <picture>
             <source media="(min-width: 1366px)" srcset="./images/index/index_bg_dt.svg">
             <source media="(min-width: 768px)" srcset="./images/index/index_bg_tb.svg">            
             <img class="object-fit-cover" src="./images/index/index_bg_mb.svg" >
-          </picture>
+          </picture> -->
+          <img
+            class="object-fit-cover"
+            src="./images/index/index_bg_mb.png"
+            srcset="
+              ./images/index/index_bg_mb.png 375w,
+              ./images/index/index_bg_tb.png 768w,
+              ./images/index/index_bg_dt.png 1366w"
+            sizes="(min-width: 1366px) 100vw,
+                  (min-width: 768px) 100vw,
+                  100vw"            
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            alt="良欣首頁背景圖"
+          />
           <div class="container-fluid">
               <p class="mb-0">
                 認真的專業 真誠的服務
@@ -215,7 +230,12 @@
                   <div class="slide_body"><p>經銷常見校正氣體/標準氣體，如零級空氣、甲烷等各種混合氣體。</p></div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./images/index/product_8_mb.svg"/>
+                  <!-- <img src="./images/index/product_8_mb.svg"/> -->
+                  <img
+                  class="object-fit-cover"
+                  src="./images/index/product_8_mb.png"
+                  alt="醫療專用氣體"
+                  />
                   <div class="slide_title"><span>醫療專用氣體</span></div>
                   <div class="slide_body"><p>專供各規格醫療用之氣體，如醫療用氧氣、醫療用二氧化碳。</p></div>
                 </div>
@@ -237,11 +257,26 @@
 
         <section class="index_my_service">
           <div class="index_my_service_bg">
-            <picture>
+            <!-- <picture>
               <source media="(min-width: 1366px)" srcset="./images/index/my_service_bg_dt.svg">
               <source media="(min-width: 768px)" srcset="./images/index/my_service_bg_tb.svg">            
               <img class="object-fit-cover" src="./images/index/my_service_bg_mb.svg" >
-            </picture>
+            </picture> -->
+            <img
+            class="object-fit-cover"
+            src="./images/index/my_service_bg_mb.png"
+            srcset="
+              ./images/index/my_service_bg_mb.png 375w,
+              ./images/index/my_service_bg_tb.png 768w,
+              ./images/index/my_service_bg_dt.png 1366w"
+            sizes="(min-width: 1366px) 100vw,
+                  (min-width: 768px) 100vw,
+                  100vw"            
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            alt="背景圖"
+           />
           </div>
           <div class="container-fluid">
             <div class="section_title">
