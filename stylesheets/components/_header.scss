@@ -7,11 +7,14 @@
                 display: none;
         }
 
-        .menu-bar{
-                background-image: url(../images/menu.svg);        
-                width: 24px;
-                height:24px;
-        }
+	.menu-bar{
+		color: #fff;
+		border: 1px solid #fff;
+		border-radius: 5px;
+		padding: 2px 6px;
+		display: inline-block;
+		text-decoration: none;
+	}
 
         .hr{
                 border: 1px solid #afb6c7;
@@ -118,11 +121,15 @@
                 }
         }
 
-        .navbar .menu-bar {
-                width: 28px;
-                height: 28px;
-                background-repeat: revert;
-                background-size: cover;
+	.navbar .menu-bar {
+		width: auto;
+		height: auto;
+		background: none;
+		color: #fff;
+		border: 1px solid #fff;
+		border-radius: 5px;
+		padding: 2px 6px;
+                font-size: 1.75rem;
         }
 
         .navbar-nav{

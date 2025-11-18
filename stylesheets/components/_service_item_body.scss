@@ -52,7 +52,7 @@
         .swiper-slide{            
             border-radius: 10px ;
             border: 0.5px solid rgba(175, 182, 199, 0.40);
-            box-shadow: 2px 2px 2px 0px rgba(175, 182, 199, 0.50);
+            // box-shadow: 2px 2px 2px 0px rgba(175, 182, 199, 0.50);
 
             img{
                 width: 100%;
@@ -99,9 +99,9 @@
     }
 
     .slide_card{
-
+        border-radius: 10px;
         .slide_card_body{
-            padding: 10px 50px 40px 50px;
+            padding: 10px 50px 40px 50px;            
         }        
     }
 
