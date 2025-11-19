@@ -10162,9 +10162,13 @@ p {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
-  padding: 2px 6px;
-  display: inline-block;
+  padding: 5px 10px;
   text-decoration: none;
+  font-size: 0.75rem;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .navbar .hr {
   border: 1px solid #afb6c7;
@@ -10257,8 +10261,12 @@ p {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
-    padding: 2px 6px;
-    font-size: 1.75rem;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .navbar-nav .nav-item {
     line-height: 56px;
