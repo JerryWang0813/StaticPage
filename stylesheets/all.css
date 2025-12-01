@@ -10110,7 +10110,7 @@ p {
 .section_title {
   margin-bottom: 6px;
 }
-.section_title span {
+.section_title h2, .section_title .h2 {
   font-family: "Noto Sans CJK TC, 微軟正黑體, sans-serif";
   font-size: 1.5rem;
   font-style: normal;
@@ -10145,7 +10145,7 @@ p {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     --bs-gutter-x: 12.5rem;
   }
-  .section_title span {
+  .section_title h2, .section_title .h2 {
     font-size: 1.5rem;
   }
   .section_body p {
@@ -10451,7 +10451,7 @@ footer {
   text-align: center;
   bottom: 32px;
 }
-.index_bg p {
+.index_bg h1, .index_bg .h1 {
   color: #FFF;
   font-family: "Noto Sans CJK TC, 微軟正黑體, sans-serif";
   font-size: 1.75rem;
@@ -10543,7 +10543,7 @@ footer {
   .index_bg div {
     bottom: 40px;
   }
-  .index_bg p {
+  .index_bg h1, .index_bg .h1 {
     font-size: 3.375rem;
     line-height: 72px;
   }
@@ -10591,7 +10591,7 @@ footer {
   .index_bg div {
     bottom: 80px;
   }
-  .index_bg p {
+  .index_bg h1, .index_bg .h1 {
     font-size: 4.5rem;
     line-height: 120px;
   }
