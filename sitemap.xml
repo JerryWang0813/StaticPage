@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 首頁 -->
+  <url>
+    <loc>https://lagas.ddnsking.com/index.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 關於我們 -->
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/about_us.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 產品頁 -->
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/product.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 服務項目總覽 -->
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/service_item.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 服務子項（1–14） -->
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_1.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_2.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_3.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_4.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_5.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_6.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_7.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_8.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_9.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_10.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_11.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_12.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_13.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/sub_service_item/service_item_14.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 證書頁 -->
+  <url>
+    <loc>https://lagas.ddnsking.com/WebPage/certificate.html</loc>
+    <lastmod>2025-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
