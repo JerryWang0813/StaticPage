@@ -3,5 +3,23 @@ Disallow: /
 
 Allow: /index.html
 Allow: /WebPage/about_us.html
+Allow: /WebPage/product.html
+Allow: /WebPage/service_item.html
+Allow: /WebPage/certificate.html
+
+Allow: /WebPage/sub_service_item/service_item_1.html
+Allow: /WebPage/sub_service_item/service_item_2.html
+Allow: /WebPage/sub_service_item/service_item_3.html
+Allow: /WebPage/sub_service_item/service_item_4.html
+Allow: /WebPage/sub_service_item/service_item_5.html
+Allow: /WebPage/sub_service_item/service_item_6.html
+Allow: /WebPage/sub_service_item/service_item_7.html
+Allow: /WebPage/sub_service_item/service_item_8.html
+Allow: /WebPage/sub_service_item/service_item_9.html
+Allow: /WebPage/sub_service_item/service_item_10.html
+Allow: /WebPage/sub_service_item/service_item_11.html
+Allow: /WebPage/sub_service_item/service_item_12.html
+Allow: /WebPage/sub_service_item/service_item_13.html
+Allow: /WebPage/sub_service_item/service_item_14.html
 
 Sitemap: https://lagas.ddnsking.com/sitemap.xml
