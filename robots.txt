@@ -1,4 +1,7 @@
 User-agent: *
+
+Allow: /sitemap.xml
+Allow: /robots.txt
 Disallow: /
 
 Allow: /index.html
