@@ -1,7 +1,5 @@
 User-agent: *
 
-Disallow: /
-
 # 基礎檔案
 Allow: /sitemap.xml
 Allow: /robots.txt
