@@ -152,7 +152,7 @@
             loading="eager"
             decoding="async"
             fetchpriority="high"
-            alt="良欣服務項目子背景圖"
+            alt="背景圖"
           />
           <div class="container-fluid">
               <p class="mb-0">相關證書</p>
@@ -170,11 +170,19 @@
           </div>          
             
           <div class="container-fluid">
-            <picture>
-              <source media="(min-width: 1366px)" srcset="../images/certificate/certification_dt.svg">
-              <source media="(min-width: 768px)" srcset="../images/certificate/certification_dt.svg">            
-              <img class="object-fit-cover" src="../images/certificate/certification_dt.svg" >
-            </picture>
+            <img
+            class="object-fit-cover"
+            src="../images/certificate/certification_dt.svg"
+            srcset="
+              ../images/certificate/certification_dt.svg 375w,
+              ../images/certificate/certification_dt.svg 768w,
+              ../images/certificate/certification_dt.svg 1366w"
+            sizes="(min-width: 1366px) 100vw,
+                  (min-width: 768px) 100vw,
+                  100vw"            
+            alt="堅持品質至上，產品與服務通過ISO品質認證，品質與專業提供各戶最高水準的保障"
+            loading="lazy"
+          />
           </div>
 
           <div class="container-fluid">
