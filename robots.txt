@@ -1,15 +1,23 @@
 User-agent: *
 
-Allow: /sitemap.xml
-Allow: /robots.txt
 Disallow: /
 
+# 基礎檔案
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# 允許圖片
+Allow: /*.png$
+Allow: /*.svg$
+
+# 允許公開頁面
 Allow: /index.html
 Allow: /WebPage/about_us.html
 Allow: /WebPage/product.html
 Allow: /WebPage/service_item.html
 Allow: /WebPage/certificate.html
 
+# 允許公開子頁面
 Allow: /WebPage/sub_service_item/service_item_1.html
 Allow: /WebPage/sub_service_item/service_item_2.html
 Allow: /WebPage/sub_service_item/service_item_3.html
