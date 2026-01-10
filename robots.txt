@@ -3,4 +3,4 @@ User-agent: *
 # 允許所有內容 (預設)
 Allow: /
 
-Sitemap: https://lagas.ddnsking.com/sitemap.xml
+Sitemap: http://www.lsgas.net/sitemap.xml
