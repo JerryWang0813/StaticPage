@@ -1,6 +1,5 @@
 User-agent: *
 
-# 允許所有內容 (預設)
 Allow: /
 
 Sitemap: https://www.lsgas.com.tw/sitemap.xml
